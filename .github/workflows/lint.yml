@@ -8,6 +8,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
     - name: Setup Node
-      uses: actions/setup-node@5b949b50c3461bbcd5a540b150c368278160234a
+      uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c
     - run: npm ci --ignore-scripts
     - run: npm run lint --silent
